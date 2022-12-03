@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>    
       <header class="header">
@@ -394,7 +394,7 @@
       <label for="subscribe-email">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
       <div class="subscribe-box">
         <input type="email" name="subscribe-email" id="subscribe-email" placeholder="E-mail">
-        <button type="submit" class="button-hero button-form button-foot">Підписатися 
+        <button type="submit" class="button-hero button-form">Підписатися 
           <svg class="icon-airplane">
           <use href="./images/symbol-defs.svg#icon-airplane"></use>
         </svg>
@@ -412,7 +412,7 @@
             </use>
           </svg>
         </button> 
-        <h2>Залиште свої дані, ми вам передзвонимо</h2> 
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2> 
         <div class="form-modal">
           <form action="">
             <div class="form-list">
@@ -444,7 +444,7 @@
               </div>                
             </div>
             <div class="terms-submit">
-              <label>
+              <label class="terms-submit__label">
               <input type="checkbox" id="check" topic="customer" class="checkbox">
               
                 <svg class="svg-check">
