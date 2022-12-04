@@ -1,15 +1,15 @@
-.constantly-h {
+.customer-section__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
 }
-.constantly-list {
+.customer-list {
   display: flex;
   gap: 30px;
 }
-.constantly-link {
+.customer-list__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -19,13 +19,13 @@
   border-radius: 4px;
   transition: color var(--time) var(--timing);
 }
-.constantly-link {
+.customer-list__link {
   &:focus,
   &:hover {
     color: var(--color);
     border: 1px solid var(--color);
   }
 }
-.constantly-svg {
+.customer-list__icon {
   fill: currentColor;
 }

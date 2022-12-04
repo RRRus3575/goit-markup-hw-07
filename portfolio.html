@@ -61,13 +61,55 @@
       <section class="section portfolio-section">
         <h1 lang="en" class="visually-hidden">Portfolio</h1>
         <div class="container">
-          <ul class="menu ul">
-            <li><button class="menu-button all-btn">Усі</button></li>
-            <li><button class="menu-button">Веб-сайти</button></li>
-            <li><button class="menu-button">Додатки</button></li>
-            <li><button class="menu-button">Дизайн</button></li>
-            <li><button class="menu-button">Маркетинг</button></li>
-          </ul>
+          <form>
+            <ul class="menu ul">
+              <li>
+                <label for="all" class="menu-button all-btn">Усі</label>
+                <input
+                  type="radio"
+                  name="menu-button"
+                  id="all"
+                  class="visually-hidden"
+                />
+              </li>
+              <li>
+                <label for="web" class="menu-button">Веб-сайти</label>
+                <input
+                  type="radio"
+                  name="menu-button"
+                  id="web"
+                  class="visually-hidden"
+                />
+              </li>
+              <li>
+                <label for="application" class="menu-button">Додатки</label>
+                <input
+                  type="radio"
+                  name="menu-button"
+                  id="application"
+                  class="visually-hidden"
+                />
+              </li>
+              <li>
+                <label for="design" class="menu-button">Дизайн</label>
+                <input
+                  type="radio"
+                  name="menu-button"
+                  id="design"
+                  class="visually-hidden"
+                />
+              </li>
+              <li>
+                <label for="marketing" class="menu-button">Маркетинг</label>
+                <input
+                  type="radio"
+                  name="menu-button"
+                  id="marketing"
+                  class="visually-hidden"
+                />
+              </li>
+            </ul>
+          </form>
           <ul class="services ul">
             <li class="services-li">
               <a href="#" class="link portfolio-link">

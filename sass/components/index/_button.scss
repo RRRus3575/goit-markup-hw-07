@@ -1,4 +1,4 @@
-.button-hero {
+.container-hero__button {
   display: block;
   min-width: 216px;
   min-height: 50px;
@@ -15,6 +15,12 @@
   border-radius: 4px;
   transition: background-color var(--time) var(--timing);
 }
+.container-hero__button {
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}
 .button-form {
   min-width: 200px;
   height: 50px;
@@ -28,16 +34,18 @@
   margin-left: 10px;
   fill: currentColor;
 }
-.modal-button {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  background-color: #ffffff;
+.modal {
+  .modal-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
 }

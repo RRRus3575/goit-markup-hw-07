@@ -2,10 +2,10 @@
   width: 696px;
   margin: 0 auto;
 }
-.hero {
+.section-hero {
   background-color: #c4c4c4;
 }
-.overlay {
+.section-hero__overlay {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -27,7 +27,7 @@
   width: 696px;
   margin: 0 auto;
 }
-.hero-h {
+.container-hero__title {
   margin-top: 0;
   margin-bottom: 30px;
   font-weight: 900;
